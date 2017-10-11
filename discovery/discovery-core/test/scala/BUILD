@@ -1,0 +1,10 @@
+junit_tests(
+    name='scala',
+    sources=rglobs('*.scala'),
+    dependencies=[
+        'discovery-core/src/main/scala',
+        '3rdparty/jvm:curator-test',
+        '3rdparty/jvm:junit',
+        '3rdparty/jvm:scalatest',
+    ],
+)

@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Java
+*.class
+*.jar
+
+# Python
+*.pyc
+
+# Vim
+.*.swp
+.*.swo
+
+# IntelliJ 
+.idea/
+*.iml
+
+# Pants
+.cache
+.pants.d
+dist
+.pids
+.pants.workdir.file_lock
+
+# Output
+target/
+
